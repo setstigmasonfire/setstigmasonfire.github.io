@@ -1,0 +1,28 @@
+body {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 100%;
+
+    /* border-style: dashed;
+    border-color: blueviolet;
+    border-width: 1px; */
+}
+
+p {
+    text-indent: 25px;
+    tab-size: 8px;
+    font-size: 100%;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 120%;
+    }
+}
+
+/* For desktop */
+@media (min-width: 1024px) {
+    body {
+        font-size: 130%;
+    }
+}
