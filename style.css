@@ -1,17 +1,29 @@
 body {
-    margin-left: 3vw;
-    margin-right: 3vw;
     font-size: 100%;
-
-    /* border-style: dashed;
+    margin: 0px;
+    border-style: dashed;
     border-color: blueviolet;
-    border-width: 1px; */
+    border-width: 1px;
 }
 
 p {
+    margin-left: 3vw;
+    margin-right: 3vw;
     text-indent: 25px;
     tab-size: 8px;
     font-size: 100%;
+}
+
+h2 {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+nav {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    clip-path: inset(0px 0px -30px 0px); /* This line was created with the help of Google AI Overviews*/
+    height: 60px;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -24,5 +36,9 @@ p {
 @media (min-width: 1024px) {
     body {
         font-size: 130%;
+    }
+
+    nav {
+        height: 70px;
     }
 }
