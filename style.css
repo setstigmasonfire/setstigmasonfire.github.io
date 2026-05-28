@@ -7,12 +7,6 @@ body {
     border-width: 1px; */
 }
 
-.bowlby-one-regular {
-  font-family: "Bowlby One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 p {
     font-family: "Noto Sans", sans-serif;
     margin-left: 12vw;
@@ -20,6 +14,11 @@ p {
     text-indent: 25px;
     tab-size: 8px;
     font-size: 100%;
+}
+
+.wide {
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
 
 h2 {
@@ -69,10 +68,28 @@ nav a:hover {
     width: height;
 }
 
+.section-title-centered {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.section-title-centered > h2, h3 {
+    margin: 0px;;
+}
+
 @media (min-width: 768px) {
     body {
         font-size: 120%;
     }
+
+    .section-title-centered {
+        margin-bottom: 75px;
+        margin-top: 75px; 
+    }
+
 }
 
 /* For desktop */
@@ -84,4 +101,10 @@ nav a:hover {
     nav {
         height: 70px;
     }
+
+    .section-title-centered {
+        margin-bottom: 100px;
+        margin-top: 100px; 
+    }
+
 }
