@@ -17,8 +17,11 @@ p {
 }
 
 .wide {
+    text-indent: 25px;
     margin-left: 6vw;
     margin-right: 6vw;
+    text-align: center;
+
 }
 
 h2 {
