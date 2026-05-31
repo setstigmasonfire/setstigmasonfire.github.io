@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   id="svg2"
+   sodipodi:docname="sticky-note.svg"
+   viewBox="0 0 341.7271 314.29001"
+   sodipodi:version="0.32"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:version="0.46"
+   width="341.72711"
+   height="314.29001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3168">
+      <stop
+         id="stop3170"
+         style="stop-color:#f7ec9a"
+         offset="0" />
+      <stop
+         id="stop3176"
+         style="stop-color:#f6ea8d"
+         offset=".13401" />
+      <stop
+         id="stop3180"
+         style="stop-color:#f5e98a"
+         offset=".45674" />
+      <stop
+         id="stop3178"
+         style="stop-color:#f8ed9d"
+         offset=".80934" />
+      <stop
+         id="stop3172"
+         style="stop-color:#f5e98a"
+         offset="1" />
+    </linearGradient>
+    <filter
+       id="filter4781"
+       inkscape:collect="always"
+       x="-0.042757749"
+       y="-0.046095167"
+       width="1.0855155"
+       height="1.0921903">
+      <feGaussianBlur
+         id="feGaussianBlur4783"
+         stdDeviation="5.4601647"
+         inkscape:collect="always" />
+    </filter>
+    <linearGradient
+       id="linearGradient4847"
+       y2="608.08002"
+       xlink:href="#linearGradient3168"
+       gradientUnits="userSpaceOnUse"
+       x2="200.96001"
+       gradientTransform="matrix(0.99999,0.0042596,-0.0042596,0.99999,-166.79019,-325.5826)"
+       y1="363.75"
+       x1="461.17999"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     guidetolerance="10"
+     pagecolor="#ffffff"
+     gridtolerance="10000"
+     inkscape:window-height="1151"
+     inkscape:zoom="1"
+     objecttolerance="10"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="313.32835"
+     inkscape:cy="100.16328"
+     showguides="true"
+     inkscape:window-y="24"
+     inkscape:window-x="0"
+     inkscape:window-width="1600"
+     inkscape:guide-bbox="true"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <sodipodi:guide
+       id="guide4849"
+       position="1.4625648,-24.596789"
+       orientation="0,1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       id="guide4853"
+       position="1.425127,-25.382503"
+       orientation="0,1"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0.86355897,-12.854996)">
+    <rect
+       id="rect4857"
+       style="opacity:0.44783;fill-opacity:0"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="/tmp/note.png"
+       height="314.29001"
+       width="336.42999"
+       inkscape:export-xdpi="90"
+       y="12.854996"
+       x="1.7850037" />
+    <path
+       id="path4843"
+       style="opacity:0.44783;fill:#000000;filter:url(#filter4781)"
+       d="m 111.75,670.22 291.37,-1.42 5.86,284.29 c 0,0 -228.99,-3.84 -306.48,-0.73 7.35,-70.31 9.25,-282.14 9.25,-282.14 z"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/tmp/note.png"
+       transform="matrix(1.0231,0.0042596,-0.0043582,0.99999,-88.113334,-642.02623)"
+       inkscape:export-xdpi="90" />
+    <path
+       id="path4845"
+       style="fill:url(#linearGradient4847)"
+       d="m 18.139813,26.857405 304.279997,1.297 -1.21,284.279995 c 0,0 -262.559997,5.77 -298.489997,-15.56 -7.5,-36.06 -4.58,-270.019995 -4.58,-270.019995 z"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/tmp/note.png"
+       inkscape:export-xdpi="90" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>sticky note (post-it)</dc:title>
+        <dc:date>2010-03-25T17:58:49</dc:date>
+        <dc:description>A realistic looking sticky note with a slight curl on one corner. Useful for displaying in-your-face notifications or reminders that need to be accepted or dismissed by a user. Rotate it slightly for a nice effect, or leave it upright and overlay HTML text directly on top -- see the sample text for color ideas.</dc:description>
+        <dc:source>https://openclipart.org/detail/34075/sticky-note-(post-it)-by-matthewgarysmith</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>matthewgarysmith</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>note</rdf:li>
+            <rdf:li>post it</rdf:li>
+            <rdf:li>post-it</rdf:li>
+            <rdf:li>reminder</rdf:li>
+            <rdf:li>sticky</rdf:li>
+            <rdf:li>sticky note</rdf:li>
+            <rdf:li>yellow</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
