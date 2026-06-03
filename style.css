@@ -336,6 +336,17 @@ footer {
   animation: fillUp 3s ease-in-out both;
 }
 
+#dark-water::before{
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    bottom: 90%; 
+    left: -50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 60%;
+    animation: spinWave 12s linear infinite;
+}
 /* The rolling wave overlay */
 :root {
   --content-margins: 20px;
