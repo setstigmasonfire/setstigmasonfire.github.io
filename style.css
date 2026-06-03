@@ -15,6 +15,36 @@ html {
     margin: 0;
 }
 
+.quote {
+    border-radius: 10px;
+    border: solid thin gray;
+    padding: 15px;
+}
+
+h4 {
+    margin-left: 3vw;
+}
+
+.post-it {
+    margin: 6vw;
+    background-image: url(Assets/sticky-note-fire-2.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:270px;
+    height:270px;
+}
+
+.post-it>h3 {
+    margin: 3vw;
+    margin-right: 40px;
+    margin-top: 10px;
+    align-self: flex-start;
+    font-size: 25px;
+}
+
 p {
     font-family: "Noto Sans", sans-serif;
     margin-left: 12vw;
@@ -403,6 +433,10 @@ footer {
         margin-right: 15px;
     }
 
+    .quote {
+        padding: 20px;
+    }
+
 }
 
 /* For desktop */
@@ -512,6 +546,20 @@ footer {
         padding-top: 35px;
         padding-bottom: 35px;
         margin-right: 20px;
+    }
+
+    .quote {
+        padding: 25px;
+        border-width:medium;
+    }
+
+    .post-it {
+        width: 380px;
+        height:380px;
+    }
+
+    .post-it>h3 {
+        font-size: 33px;
     }
 
 }
