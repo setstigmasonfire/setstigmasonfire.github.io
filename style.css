@@ -2,6 +2,7 @@ body {
     font-family: "Noto Sans", sans-serif;
     font-size: 100%;
     margin: 0px;
+    background-color: black;
     /* border-style: dashed;
     border-color: blueviolet;
     border-width: 1px; */
@@ -24,6 +25,66 @@ p {
 
 }
 
+.window {
+    width: 100%;
+    height: 200px;
+}
+
+.banner { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: fixed;
+    display: flex;
+    margin-top: var(--nav-bar-height);
+    width: 100%;
+    height: 200px;
+    top: 60px;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#banner-statistic-percent{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: -15px 15px 0px 0px orangered;
+}
+
+#banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#banner-body-text {
+    font-size: 20px;
+    width: 300px;
+}
+
+#banner-subtitle {
+    font-size: 10px;
+}
+
+#subanner {
+    line-height: 30px;
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 5.5px;
+    height: 30px;
+    font-size: 29px;
+    text-align: center;
+    font-weight: bolder;
+}
+
 h2 {
     font-family: "Bowlby One", sans-serif;
     margin-left: 3vw;
@@ -34,16 +95,27 @@ h2 {
 nav {
     display: flex;
     align-items: center;
+    background-color: #fff;
     justify-content: flex-end;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
     clip-path: inset(0px 0px -30px 0px); /* This line was created with the help of Google AI Overviews*/
     height: 60px;
     width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
 }
 
 nav a {
   text-decoration: none;  
   color: brown;
+}
+
+.content {
+   background-color: #fff; 
+   width: calc(100%-var(--content-margins));
+   margin-left: var(--content-margins);
+   margin-right: var(--content-margins);
 }
 
 nav a:hover {
@@ -83,6 +155,16 @@ nav a:hover {
     margin: 0px;
 }
 
+.definition {
+    width: 100%-10px;
+    height: 50px;
+    text-indent: 25px;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    text-align: center;
+    border-left: #56aad1, 10px, solid;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -118,11 +200,12 @@ footer {
     margin-right: 30px
 }
 
-/* Coded with the helpof Google Ai Overviews */
+
+/* Coded with the helpof Google Ai Overviews (With some edits) */
 .water-container {
   position: relative;
-  width: var(--container-size);
-  height: var(--container-size);
+  width: 100px;
+  height: 100px;
   border: 4px solid #fff;
   border-radius: 50%; /* Keeps the container a perfect circle */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -137,13 +220,14 @@ footer {
   width: 100%;
   height: 0%; /* Initial starting position (empty) */
   background-color: var(--water-color);
-  animation: fillUp 3s ease-in-out forwards; /* Controls the rising effect */
+  animation: fillUp 3s ease-in-out both;
 }
 
 /* The rolling wave overlay */
 :root {
   --water-color: #4fc3f7;
   --container-size: 200px;
+  --content-margins: 20px;
 }
 
 .water::before {
@@ -151,11 +235,11 @@ footer {
   position: absolute;
   width: 200%;
   height: 200%;
-  bottom: 95%; /* Places it right at the surface layer */
+  bottom: 95%; 
   left: -50%;
-  background-color: rgb(255, 255, 255); /* Matches the site background color */
-  border-radius: 40%; /* Unequal curves create the organic wavy movement */
-  animation: spinWave 10s linear infinite; /* Loops the rolling water effect */
+  background-color: rgb(255, 255, 255);
+  border-radius: 40%;
+  animation: spinWave 10s linear infinite;
 }
 
 /* Keyframes for the rising fill animation */
@@ -164,7 +248,7 @@ footer {
     height: 0%;
   }
   100% {
-    height: 80%; /* Adjust this to change the final fill level */
+    height: 90%; /* Adjust this to change the final fill level */
   }
 }
 
@@ -206,6 +290,17 @@ footer {
     .social-container {
         margin-right: 50px
     }
+
+    :root {
+        --content-margins: 30px;
+    }
+
+    #banner-statistic-percent {
+        width: 100px;
+        height: 100px;
+        font-size: 55px;
+    }
+    
 }
 
 /* For desktop */
@@ -238,4 +333,55 @@ footer {
     .social-container {
         margin-right: 70px
     }
+
+        :root {
+        --content-margins: 40px;
+    }
+
+    .window {
+        width: 100%;
+        height: 300px;
+    }
+
+    .banner { 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        position: fixed;
+        display: flex;
+        margin-top: var(--nav-bar-height);
+        width: 100%;
+        height: 300px;
+        top: 60px;
+        z-index: -1;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    #banner-statistic-percent {
+        width: 120px;
+        height: 120px;
+        font-size: 65px;
+    }
+
+    #banner-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #banner-body-text {
+        font-size: 35px;
+        width: 600px;
+    }
+
+    #banner-subtitle {
+        font-size: 20px;
+    }
+
+    #subanner {
+        line-height: 50px;
+        height: 50px;
+        font-size: 50px;
+    }
+
 }
