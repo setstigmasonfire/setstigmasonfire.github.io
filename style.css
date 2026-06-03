@@ -243,8 +243,30 @@ footer {
     margin-right: 30px
 }
 
-/* Coded with the helpof Google Ai Overviews (With some edits) */
+.factoid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 235px;
+}
+
+.fact-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    max-width: calc(100% - 12vw - 120px);
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: gray solid thin;
+    border-bottom: gray solid thin;
+}
+
+/* Coded with the help of Google Ai Overviews (With some edits) */
 .water-container {
+    align-self: center;
+    aspect-ratio: 1;
+    margin-left: 6vw;
+    margin-right: 6vw;
   position: relative;
   width: 100px;
   height: 100px;
@@ -256,6 +278,13 @@ footer {
 
 /* The solid body of water */
 .water {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color:aliceblue;
+    align-items: center;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -277,10 +306,10 @@ footer {
   position: absolute;
   width: 200%;
   height: 200%;
-  bottom: 95%; 
+  bottom: 90%; 
   left: -50%;
   background-color: rgb(255, 255, 255);
-  border-radius: 40%;
+  border-radius: 60%;
   animation: spinWave 10s linear infinite;
 }
 
@@ -290,7 +319,7 @@ footer {
     height: 0%;
   }
   100% {
-    height: 90%; /* Adjust this to change the final fill level */
+    height: 80%; /* Adjust this to change the final fill level */
   }
 }
 
@@ -343,6 +372,27 @@ footer {
         font-size: 55px;
     }
     
+    .water {
+        font-size: 75px;
+    }
+
+    .water-container {
+        width: 225px;
+        height: 225px;
+        border-width: 10px;
+    }
+
+    .factoid-container {
+        height: 245px;
+    }
+
+    .fact-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        max-width: calc(100% - 12vw - 260px);
+        margin-right: 15px;
+    }
+
 }
 
 /* For desktop */
@@ -429,6 +479,29 @@ footer {
         line-height: 50px;
         height: 50px;
         font-size: 50px;
+    }
+
+    .water {
+        font-size: 100px;
+    }
+
+    .water-container {
+        width: 350px;
+        height: 350px;
+        border-width: 20px;
+    }
+
+    .factoid-container {
+        height: 370px;
+    }
+
+    .fact-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 60px;
+        max-width: calc(100% - 12vw - 400px);
+        padding-top: 35px;
+        padding-bottom: 35px;
+        margin-right: 20px;
     }
 
 }
