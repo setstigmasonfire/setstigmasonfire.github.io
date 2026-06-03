@@ -102,6 +102,21 @@ p {
     font-weight: bolder;
 }
 
+.organizatoins {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.organizatoins>a>img {
+     max-width: 300px;
+    max-height: 300px; 
+    object-fit: contain;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+}
+
 h2 {
     font-family: "Bowlby One", sans-serif;
     margin-left: 3vw;
@@ -168,9 +183,13 @@ nav a:hover {
     margin-top: 45px;
 }
 
-.section-title-centered > h2, h3 {
+.section-title-centered>h2, h3 {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.section-title-centered>h3 {
+    text-align: center;
 }
 
 .spacer {
