@@ -243,6 +243,14 @@ footer {
     margin-right: 30px
 }
 
+.fact-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    height:fit-content
+}
+
 .factoid-container {
     display: flex;
     justify-content: center;
@@ -259,6 +267,10 @@ footer {
     padding-bottom: 20px;
     border-top: gray solid thin;
     border-bottom: gray solid thin;
+}
+
+#dark-water {
+    background-color: #4681ca;
 }
 
 /* Coded with the help of Google Ai Overviews (With some edits) */
@@ -290,14 +302,12 @@ footer {
   left: 0;
   width: 100%;
   height: 0%; /* Initial starting position (empty) */
-  background-color: var(--water-color);
+  background-color: #4fc3f7;
   animation: fillUp 3s ease-in-out both;
 }
 
 /* The rolling wave overlay */
 :root {
-  --water-color: #4fc3f7;
-  --container-size: 200px;
   --content-margins: 20px;
 }
 
@@ -377,8 +387,8 @@ footer {
     }
 
     .water-container {
-        width: 225px;
-        height: 225px;
+        width: 180px;
+        height: 180px;
         border-width: 10px;
     }
 
@@ -486,8 +496,8 @@ footer {
     }
 
     .water-container {
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
         border-width: 20px;
     }
 
@@ -497,7 +507,7 @@ footer {
 
     .fact-text {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 60px;
+        font-size: 50px;
         max-width: calc(100% - 12vw - 400px);
         padding-top: 35px;
         padding-bottom: 35px;
